@@ -443,7 +443,7 @@ const viewer = new function () {
             // TODO: Load data sources based on a menu
             const data_source_dirs = (typeof qparams.dataSourceDir == 'undefined')
                                 ?
-                                ['/default/search/path']
+                                ['/please/use/dataSourceDir/to/set/search/path']
                                 : qparams.dataSourceDir.split(',')
             this.data_manager = new DataManager(this.prefix,
                                                 data_source_dirs[0],
