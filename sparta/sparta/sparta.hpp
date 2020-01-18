@@ -657,7 +657,7 @@ This feature is not yet implemented
 
 Pipeline collection captures a per-cycle trace of 'transactions' flowing through specially
 instrumented stations (e.g. buffer elements, queues, etc.) throughout the simulator when enabled.
-This data can be visualized in the Argos (\ref argos) viewer with customizable layouts to display
+This data can be visualized in the pipeViewer (\ref pipeViewer) viewer with customizable layouts to display
 and navigate pipeline snapshots and time-based pipeline crawls.
 
 This data is written to a set of files having a common, user-specified prefix. Support for
@@ -862,18 +862,18 @@ can cause crashes in this debugger
 
 ---
 \section data_proc_vis 4 Post-processing and Visualization
-\subsection argos 4.1 Pipeline viewer (Argos)
+\subsection pipeViewer 4.1 Pipeline viewer (pipeViewer)
 
-Argos visualizes pipeline data generated from a simulator if that simulator supports sparta pipeline
+pipeViewer visualizes pipeline data generated from a simulator if that simulator supports sparta pipeline
 collection. See \ref pipeline for instructions on using pipeline collection.
 
-Argos is a free-form visualization tool for showing pipeline snapshots and crawls in custom
+pipeViewer is a free-form visualization tool for showing pipeline snapshots and crawls in custom
 layouts. Development is ongoing.
 
-Future editions of Argos will aim to provide more dashboard-like functionality with the ability to
+Future editions of pipeViewer will aim to provide more dashboard-like functionality with the ability to
 show counters, statistics, and histograms from the simulation in addition to pipeline state.
 
-Refer to the Argos viewer documentation (http://wiki/index.php/Argos) for usage on the argos viewer
+Refer to the pipeViewer viewer documentation (http://wiki/index.php/pipeViewer) for usage on the pipeViewer viewer
 itself.
 */
 
@@ -1268,8 +1268,8 @@ General Options:
                                         heartbeat will be finalized and then
                                         restarted with a new start time. Must
                                         be a multiple of 100 for efficient
-                                        reading by Argos. Large values will
-                                        reduce responsiveness of Argos when
+                                        reading by pipeViewer. Large values will
+                                        reduce responsiveness of pipeViewer when
                                         jumping to different areas of the file
                                         and loading.
                                         Default = 5000 ticks.

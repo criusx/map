@@ -20,7 +20,7 @@
 #include "sparta/utils/SpartaException.hpp"
 #include "sparta/utils/SpartaAssert.hpp"
 #include "sparta/utils/LexicalCast.hpp"
-#include "sparta/argos/Outputter.hpp"
+#include "sparta/pipeViewer/Outputter.hpp"
 
 // #define READER_DBG 1
 // #define READER_LOG 1
@@ -30,7 +30,7 @@
 #endif
 
 namespace sparta{
-namespace argos{
+namespace pipeViewer{
 
     /*!
      * \brief Sanity checker for records. Used when doing a dump of the index
@@ -212,7 +212,7 @@ namespace argos{
             }else if(version_ == 2){
                 readRecord_v2_(pos, start, end);
             }else{
-                throw SpartaException("This argos reader library does not know how to read a record "
+                throw SpartaException("This pipeViewer reader library does not know how to read a record "
                                     " for version ") << version_ << " file " << filepath_;
             }
         }
@@ -686,12 +686,12 @@ namespace argos{
             }
 
             #ifdef READER_LOG
-            std::cout << "READER: Argos reader opened: " << filepath << "record.bin" << std::endl;
+            std::cout << "READER: pipeViewer reader opened: " << filepath << "record.bin" << std::endl;
             #endif
 
             // Read header from index file
             char header_buf[64];
-            // Note that this is not shared with argos::Outputter since it must
+            // Note that this is not shared with pipeViewer::Outputter since it must
             // remain even if the Outputter is changed
             const std::string EXPECTED_HEADER_PREFIX = "sparta_pipeout_version:";
             const std::size_t HEADER_SIZE = EXPECTED_HEADER_PREFIX.size() + 4 + 1; // prefix + number + newline
@@ -872,7 +872,7 @@ namespace argos{
             // a lookup to find out the Actual String Representation from an integer.
             // When a modeler has methods which actually return strings like
             // instruction opcodes like "and", "str", "adddl" or mmu state like "ready", "not ready" etc.,
-            // we need to display exactly this kind of string back in the Argos Viewer.
+            // we need to display exactly this kind of string back in the pipeViewer Viewer.
             // But storing such strings in Database
             // takes up a lot of space and also, writing strings to a binary file is time intensive.
             // So, during writing records to the Database,
@@ -887,8 +887,8 @@ namespace argos{
             // -> "not ready" in the map means that the value 3 in the 2nd field of the
             // 1st type of Pair actually is represented by the string "not ready".
             // By using this structure, we will populate the enum vector of our pair
-            // records and send the record back to the Argos side, so that we can
-            // represent such strings in the Argos Viewer.
+            // records and send the record back to the pipeViewer side, so that we can
+            // represent such strings in the pipeViewer Viewer.
             // Read every line of the String Map file
             while(string_file_){
                 std::string Data_String;
@@ -1027,7 +1027,7 @@ namespace argos{
                     recsread++;
                 }
             }else{
-                throw SpartaException("This argos reader library does not know how to read a window "
+                throw SpartaException("This pipeViewer reader library does not know how to read a window "
                                     " for version ") << version_ << " file: " << filepath_;
             }
 
@@ -1208,14 +1208,14 @@ namespace argos{
         // In-memory data structure to hold the string map structure
         // which maps a tuple of integers reflecting the pair type,
         // field number and field value to the actual String
-        // we want to display in Argos
+        // we want to display in pipeViewer
         std::unordered_map<std::tuple<
             uint64_t, uint64_t, uint64_t>,
             std::string, hashtuple::hash<
             std::tuple<uint64_t, uint64_t, uint64_t>>>
             stringMap_;
     };
-}//NAMESPACE:argos
+}//NAMESPACE:pipeViewer
 }//NAMESPACE:sparta
 // __READER_H__
 #endif

@@ -8,7 +8,7 @@
 #include "transaction_structures.h"
 #include "sparta/utils/SpartaException.hpp"
 namespace sparta{
-namespace argos{
+namespace pipeViewer{
     /**
      * \class PipelineDataCallback
      * \brief An abstract class that recieves transactions as they are
@@ -28,9 +28,9 @@ namespace argos{
         virtual void foundAnnotationRecord(annotation_t*) = 0;
         //! Add a virtual method for the case we find a Pair Transaction Record.
         // This method is called back in TransactionDatabaseInterval to build the
-        // TransactionInterval to be used by Argos.
+        // TransactionInterval to be used by pipeViewer.
         virtual void foundPairRecord(pair_t*) = 0;
     };
-}//NAMESPACE:argos
+}//NAMESPACE:pipeViewer
 }//NAMESPACE:sparta
 #endif

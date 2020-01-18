@@ -1,0 +1,67 @@
+---
+- Content: caption
+  LocationString: top
+  auto_color_basis:
+  caption: 'Uninitialized.'
+  color: (0, 0, 255)
+  color_basis_type: string_key
+  dimensions: (714, 14)
+  on_init: RTLUpdate:MyUpdate
+  on_cycle_changed: RTLUpdate:MyUpdate
+  on_update:
+  position: (14, 14)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: caption
+  LocationString: top
+  auto_color_basis:
+  caption: 'Example: uuidgen > uuid; sim_rtl/run_verdi -tkName RTL_`cat uuid`; run_argos
+    sim_fiat/main_ rtl wave80'
+  color: (128, 128, 128)
+  color_basis_type: string_key
+  dimensions: (714, 14)
+  on_update:
+  position: (14, 42)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: caption
+  LocationString: top
+  auto_color_basis:
+  caption: 'Note: Currently there is a bug that requires you to load your rc file
+    in Verdi before stepping Argos to connect.'
+  color: (128, 128, 128)
+  color_basis_type: string_key
+  dimensions: (714, 14)
+  on_update:
+  position: (14, 126)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: caption
+  LocationString: top
+  auto_color_basis:
+  caption: 'Note: Currently you must step Argos once for this layout to initialize.'
+  color: (128, 128, 128)
+  color_basis_type: string_key
+  dimensions: (714, 14)
+  on_update:
+  position: (14, 70)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: caption
+  LocationString: top
+  auto_color_basis:
+  caption: 'Note: You must to step Argos until connected to Verdi. The \"Initialized\"
+    line above will become green when connected.'
+  color: (128, 128, 128)
+  color_basis_type: string_key
+  dimensions: (714, 14)
+  on_update:
+  position: (14, 98)
+  t_offset: 0
+  tooltip:
+  type: box
+...

@@ -107,7 +107,7 @@
 
  - Flame graphs or some other kind of navigable code context view below timeline charts
 
- - Could reimplement argos in this tool?
+ - Could reimplement pipeViewer in this tool?
 
  - Datasources?
   	- time series
@@ -115,4 +115,4 @@
   	- elf files 
   	- study results
   	- bt9?
-  	- argos transactiondb?
+  	- pipeViewer transactiondb?

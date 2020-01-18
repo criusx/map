@@ -1,0 +1,802 @@
+---
+- Content: caption
+  LocationString: top.core0.collectables.CompletionQueue.CompletionQueue[0]
+  annotation:
+  caption: fat
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (0, 0)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.CompletionQueue.CompletionQueue[1]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (20, 20)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.CompletionQueue.CompletionQueue[2]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (40, 40)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUQueue.FPUQueue[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (60, 60)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUQueue.FPUQueue[1]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (80, 80)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUQueue.FPUQueue[2]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (100, 100)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUScheduler.FPUScheduler[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (74, 191)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (94, 211)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[1]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (114, 231)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[2]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (134, 251)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[3]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (154, 271)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[4]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (174, 291)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[5]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (194, 311)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[6]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (214, 331)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.CompletionQueue.CompletionQueue[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (280, 280)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.CompletionQueue.CompletionQueue[1]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (300, 300)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.CompletionQueue.CompletionQueue[2]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (320, 320)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUQueue.FPUQueue[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (340, 340)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUQueue.FPUQueue[1]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (360, 360)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUQueue.FPUQueue[2]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (380, 380)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUScheduler.FPUScheduler[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (50, 0)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (70, 20)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[1]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (90, 40)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[2]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (110, 60)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[3]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (84, 151)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[4]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (104, 171)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[5]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (124, 191)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[6]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (144, 211)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.CompletionQueue.CompletionQueue[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (164, 231)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.CompletionQueue.CompletionQueue[1]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (184, 251)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.CompletionQueue.CompletionQueue[2]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (204, 271)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUQueue.FPUQueue[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (224, 291)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUQueue.FPUQueue[1]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (290, 240)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUQueue.FPUQueue[2]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (310, 260)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUScheduler.FPUScheduler[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (330, 280)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (350, 300)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[1]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (370, 320)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[2]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (390, 340)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[3]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (410, 360)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[4]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (430, 380)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[5]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (100, 0)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[6]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (120, 20)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.CompletionQueue.CompletionQueue[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (140, 40)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.CompletionQueue.CompletionQueue[1]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (160, 60)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.CompletionQueue.CompletionQueue[2]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (134, 151)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUQueue.FPUQueue[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (154, 171)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUQueue.FPUQueue[1]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (174, 191)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUQueue.FPUQueue[2]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (194, 211)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUScheduler.FPUScheduler[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (214, 231)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (280, 180)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[1]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (300, 200)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[2]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (320, 220)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[3]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (340, 240)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[4]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (360, 260)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[5]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (380, 280)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[6]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (400, 300)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.CompletionQueue.CompletionQueue[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (420, 320)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.CompletionQueue.CompletionQueue[1]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (440, 340)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.CompletionQueue.CompletionQueue[2]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (460, 360)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUQueue.FPUQueue[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (480, 380)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUQueue.FPUQueue[1]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (150, 0)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUQueue.FPUQueue[2]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (170, 20)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUScheduler.FPUScheduler[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (190, 40)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (210, 60)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[1]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (184, 151)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[2]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (204, 171)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[3]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (224, 191)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[4]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (290, 140)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[5]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (310, 160)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[6]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (330, 180)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.CompletionQueue.CompletionQueue[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (350, 200)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.CompletionQueue.CompletionQueue[1]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (370, 220)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.CompletionQueue.CompletionQueue[2]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (390, 240)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUQueue.FPUQueue[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (410, 260)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUQueue.FPUQueue[1]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (430, 280)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUQueue.FPUQueue[2]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (450, 300)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUScheduler.FPUScheduler[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (470, 320)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (490, 340)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[1]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (510, 360)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[2]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (530, 380)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[3]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (200, 0)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[4]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (220, 20)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[5]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (240, 40)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[6]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (260, 60)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.CompletionQueue.CompletionQueue[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (280, 80)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.CompletionQueue.CompletionQueue[1]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (300, 100)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.CompletionQueue.CompletionQueue[2]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (320, 120)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUQueue.FPUQueue[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (340, 140)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUQueue.FPUQueue[1]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (360, 160)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUQueue.FPUQueue[2]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (380, 180)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.FPUScheduler.FPUScheduler[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (400, 200)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (420, 220)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[1]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (440, 240)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[2]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (460, 260)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[3]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (480, 280)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[4]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (500, 300)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[5]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (520, 320)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.ReorderBuffer.ReorderBuffer[6]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (540, 340)
+  t_offset: 0
+- Content: transaction
+  LocationString: top.core0.collectables.CompletionQueue.CompletionQueue[0]
+  annotation:
+  caption:
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (560, 360)
+  t_offset: 0
+- Content: caption
+  LocationString: top.core0.collectables.CompletionQueue.CompletionQueue[1]
+  annotation:
+  caption: 2fat
+  color: (200, 200, 200)
+  dimensions: (50, 20)
+  position: (580, 380)
+  t_offset: 0
+...

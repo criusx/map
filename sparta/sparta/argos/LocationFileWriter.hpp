@@ -18,11 +18,11 @@
 #include "sparta/collection/CollectableTreeNode.hpp"
 #include "sparta/simulation/TreeNodePrivateAttorney.hpp"
 namespace sparta{
-namespace argos
+namespace pipeViewer
 {
     /**
      * \brief Object capable of writing a file with Location entries for a given
-     * device tree for consumption by the argos viewer
+     * device tree for consumption by the pipeViewer viewer
      *
      * File format is a version line:
      * \verbatim
@@ -187,7 +187,7 @@ namespace argos
 
     }; // class LocationFileWriter
 
-}//namespace argos
+}//namespace pipeViewer
 }//namespace sparta
 
 // __LOCATION_FILE_WRITER_H__

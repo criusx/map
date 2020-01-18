@@ -16,13 +16,13 @@
 #include <sstream>
 #include <limits>
 
-#include "sparta/argos/transaction_structures.hpp"
+#include "sparta/pipeViewer/transaction_structures.hpp"
 #include "sparta/utils/SpartaException.hpp"
 #include "sparta/utils/SpartaAssert.hpp"
 #include "sparta/utils/TupleHashCompute.hpp"
 
 namespace sparta{
-    namespace argos{
+    namespace pipeViewer{
 
     /**
     *  \class Outputter
@@ -54,7 +54,7 @@ namespace sparta{
         /*!
         * \brief File format version written by this outputter.
         * This must be incremented on any change to the transaction type
-        * \note If you are incrementing this, be sure argos::Reader is up to
+        * \note If you are incrementing this, be sure pipeViewer::Reader is up to
         * date and backward compatible
         */
         static constexpr uint32_t FILE_VERSION = 2;
@@ -260,7 +260,7 @@ namespace sparta{
                 }
             }
         }
-    }//namespace argos
+    }//namespace pipeViewer
 }//namespace sparta
 //__OUTPUTTER_H__
 #endif

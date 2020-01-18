@@ -1,0 +1,13 @@
+
+pipeViewer
+transaction viewer
+================================================================================
+
+Within pipe_view/ run:
+
+    python pipeViewer.py
+
+If errors occur, ensure that 
+A) Any necessary environment variables are exported (see errors)
+B) Any necessary libraries are built (e.g. sparta transactiondb module)
+C) Running with /sarc/spa/tools/gcc-470/bin/python

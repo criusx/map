@@ -12,7 +12,7 @@
 #include "sparta/utils/SpartaAssert.hpp"
 
 namespace sparta {
-namespace argos {
+namespace pipeViewer {
 template <class Dat_t>
 class transactionInterval {
 private:
@@ -187,7 +187,7 @@ public:
     }
 }; // transactionInterval
 
-}//NAMESPACE:argos
+}//NAMESPACE:pipeViewer
 }//NAMESPACE:sparta
 
 #endif // #ifndef __TRANSACTION_INTERVAL_H__

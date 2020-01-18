@@ -2,7 +2,7 @@
  * \file IntervalWindow.h
  *
  * \brief IntervalWindow provides the data storage and search aparatus for
- * the SPA Transaction Viewer, code named Argos.
+ * the SPA Transaction Viewer, code named pipeViewer.
  *
  * \copyright
 **/
@@ -13,15 +13,15 @@
 #include <inttypes.h>
 #include <list>
 #include <string>
-#include "sparta/argos/TransactionInterval.hpp"
+#include "sparta/pipeViewer/TransactionInterval.hpp"
 #include "sparta/ISL/IntervalList.hpp"
 #include "sparta/ISL/IntervalSkipList.hpp"
-#include "sparta/argos/PipelineDataCallback.hpp"
-#include "sparta/argos/Reader.hpp"
+#include "sparta/pipeViewer/PipelineDataCallback.hpp"
+#include "sparta/pipeViewer/Reader.hpp"
 #include <pthread.h>
 
 namespace sparta {
-namespace argos {
+namespace pipeViewer {
 
     class IntervalWindow : public PipelineDataCallback{
     private:
@@ -302,6 +302,6 @@ namespace argos {
             isList->findIntervals( active_Cycle_, List);
         }
     };// CLASS:IntervalWindow
-}// NAMESPACE:Argos
+}// NAMESPACE:pipeViewer
 }// NAMESPACE:Sparta
 #endif // #ifndef __INTERVAL_WINDOW_H__

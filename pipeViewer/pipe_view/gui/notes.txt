@@ -1,0 +1,10 @@
+Lower Priority Tasks still to be completed::
+
+
+element_propsdlg:
+        Better layout with sizers or whatnot, perhaps moving from a ListCtrl
+               to an UltimateListCtrl?
+        Default value of drop-down menu combo box needs to be correct
+        Show the current specified color somehow (text color, higlight, etc)
+        Offer a color wheel selector
+        Show a preview of the element (including the current data inside)

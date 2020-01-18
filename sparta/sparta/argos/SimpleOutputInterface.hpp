@@ -1,11 +1,11 @@
 #ifndef __SPARTA_SIMPLE_OUTPUT_INTERFACE_H__
 #define __SPARTA_SIMPLE_OUTPUT_INTERFACE_H__
 
-#include "sparta/argos/Outputter.hpp"
-#include "sparta/argos/transaction_structures.hpp"
+#include "sparta/pipeViewer/Outputter.hpp"
+#include "sparta/pipeViewer/transaction_structures.hpp"
 
 namespace sparta{
-    namespace argos{
+    namespace pipeViewer{
 
         class SimpleOutputInterface {
         public:
@@ -75,7 +75,7 @@ namespace sparta{
             uint64_t next_transaction_id_ = 0;
             bool debug_;
         };
-    }  // namespace argos
+    }  // namespace pipeViewer
 } // namespace sparta
 
 

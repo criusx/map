@@ -167,12 +167,12 @@ struct pair_t : public transaction_t {
     std::vector<std::string> nameVector;
 
     // Vector of the actual String Values which we need to 
-    // lookup while displaying in Argos.
+    // lookup while displaying in pipeViewer.
     // If a field value has no string representation, 
     // the enum vector field is empty at that position.
     std::vector<std::string> stringVector;
 
-    // Vector used for Argos Formatting.
+    // Vector used for pipeViewer Formatting.
     std::vector<std::string> delimVector;
 
     // The default constructor suffices for this structure.

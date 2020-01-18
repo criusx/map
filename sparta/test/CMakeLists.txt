@@ -18,7 +18,7 @@ add_custom_target (regress_valgrind)
 add_custom_command (TARGET regress          POST_BUILD COMMAND ctest -LE ${VALGRIND_TEST_LABEL} -j10)
 add_custom_command (TARGET regress_valgrind POST_BUILD COMMAND ctest -L  ${VALGRIND_TEST_LABEL} -j10)
 
-#add_subdirectory (Argos)
+#add_subdirectory (pipeViewer)
 add_subdirectory (Array)
 add_subdirectory (Audience)
 add_subdirectory (Buffer)

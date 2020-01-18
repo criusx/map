@@ -20,15 +20,15 @@
 #include <list>
 #include <ctime>
 
-#include "sparta/argos/TransactionInterval.hpp"
-#include "sparta/argos/PipelineDataCallback.hpp"
-#include "sparta/argos/Reader.hpp"
-#include "sparta/argos/transaction_structures.hpp"
+#include "sparta/pipeViewer/TransactionInterval.hpp"
+#include "sparta/pipeViewer/PipelineDataCallback.hpp"
+#include "sparta/pipeViewer/Reader.hpp"
+#include "sparta/pipeViewer/transaction_structures.hpp"
 #include "sparta/utils/SpartaAssert.hpp"
 #include "sparta/utils/TimeManager.hpp"
 
 namespace sparta {
-    namespace argos {
+    namespace pipeViewer {
 
 class TransactionDatabaseInterface
 {
@@ -657,7 +657,7 @@ private:
 
 
     /*!
-     * \brief Manages argos reader callbacks and dumps transaction data into an
+     * \brief Manages pipeViewer reader callbacks and dumps transaction data into an
      * ordered list of nodes
      */
     class SmartReader : public PipelineDataCallback
@@ -682,8 +682,8 @@ private:
 
         /*!
          * \brief Constructor
-         * \param file_prefix Prefix of the argos database that will be opened
-         * \post Handle to argos database identified by \a file_prefix is open
+         * \param file_prefix Prefix of the pipeViewer database that will be opened
+         * \post Handle to pipeViewer database identified by \a file_prefix is open
          */
         SmartReader(const std::string& file_prefix) :
             event_reader_(file_prefix, this),
@@ -1906,7 +1906,7 @@ private:
     }
 };
 
-    } // argos
+    } // pipeViewer
 } // sparta
 
 #endif // __SPARTA_TRANSACTION_DATABASE_INTERFACE_H__

@@ -1,0 +1,1424 @@
+---
+- Content: loc
+  LocationString: top.core0.retire.instructions_per_cycle
+  auto_color_basis:
+  caption:
+  color: (128, 128, 128)
+  color_basis_type: string_key
+  dimensions: (700, 720)
+  filename: Mongoose_v3.png
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (0, 0)
+  t_offset: 0
+  tooltip:
+  type: image
+- Content: auto_color_annotation
+  LocationString: top.core0.fetch.aq.aq0
+  auto_color_basis: uop_coloring:FetchColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (206, 84)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.fetch.aq.aq1
+  auto_color_basis: uop_coloring:FetchColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (332, 84)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.fetch.aq.aq2
+  auto_color_basis: uop_coloring:FetchColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (458, 84)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.decode.uOpProduction.uOpProduction0
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (80, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (196, 140)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.decode.uOpProduction.uOpProduction1
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (80, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (294, 140)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.decode.uOpProduction.uOpProduction2
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (80, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (387, 140)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.decode.uOpProduction.uOpProduction3
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (80, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (476, 140)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.rename.out_dispatch_uops_coll_0
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (84, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (196, 201)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.rename.out_dispatch_uops_coll_1
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (84, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (285, 201)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.rename.out_dispatch_uops_coll_2
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (84, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (378, 201)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.rename.out_dispatch_uops_coll_3
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (84, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (476, 201)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.dispatch.dispatch_0
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (84, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (126, 260)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.dispatch.dispatch_1
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (84, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (216, 260)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.dispatch.dispatch_2
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (84, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (308, 260)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.dispatch.dispatch_3
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (84, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (406, 260)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.alu_a_0.generic_scheduler.scheduler_pick_0
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (70, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (113, 353)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.alu_a_1.generic_scheduler.scheduler_pick_0
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (70, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (217, 353)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.alu_x_0.generic_scheduler.scheduler_pick_0
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (70, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (318, 353)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.branch_unit_0.generic_scheduler.scheduler_pick_0
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (70, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (425, 353)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.alu_a_0.register_file_read_0.registerFileRead
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (70, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (113, 376)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.alu_a_1.register_file_read_0.registerFileRead
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (70, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (217, 376)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.alu_x_0.register_file_read_0.registerFileRead
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (70, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (318, 376)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.branch_unit_0.register_file_read_0.registerFileRead
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (70, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (425, 376)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.alu_a_0.execution_pipeline_0.executionPipeline
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (70, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (113, 400)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.alu_a_1.execution_pipeline_0.executionPipeline
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (70, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (218, 400)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.alu_x_0.execution_pipeline_0.executionPipeline
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (70, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (318, 400)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.branch_unit_0.execution_pipeline_0.executionPipeline
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (70, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (425, 400)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.fp_unit_0.register_file_read_1.registerFileRead
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (60, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (201, 504)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.fp_unit_0.register_file_read_0.registerFileRead
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (60, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (117, 504)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.fp_unit_0.fp_fine_scheduler.scheduler_pick_1
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (60, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (201, 476)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.fp_unit_0.fp_fine_scheduler.scheduler_pick_0
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (60, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (117, 476)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.fp_unit_0.execution_pipeline_0.executionPipeline
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (60, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (117, 532)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.fp_unit_0.execution_pipeline_1.executionPipeline
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (60, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (201, 532)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.retire.retire_uops_coll_0
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (84, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (191, 605)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.retire.retire_uops_coll_1
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (84, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (306, 605)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.retire.retire_uops_coll_2
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (84, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (421, 605)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.retire.retire_uops_coll_3
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (84, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (536, 605)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.load_agu0.generic_scheduler.scheduler_pick_0
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (60, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (400, 477)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.store_agu0.generic_scheduler.scheduler_pick_0
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (60, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (477, 477)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.store_data_unit.generic_scheduler.scheduler_pick_0
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (60, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (557, 477)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.load_agu0.register_file_read_0.registerFileRead
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (60, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (400, 505)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.store_agu0.register_file_read_0.registerFileRead
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (60, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (477, 506)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.store_data_unit.register_file_read_0.registerFileRead
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (60, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (557, 506)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.load_agu0.execution_pipeline_0.executionPipeline
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (60, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (400, 534)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.store_agu0.execution_pipeline_0.executionPipeline
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (60, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (477, 534)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.store_data_unit.execution_pipeline_0.executionPipeline
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (60, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (557, 534)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: annotation
+  LocationString: top.core0.retire.instructions_per_cycle
+  auto_color_basis:
+  bg_color: (255, 255, 255)
+  caption:
+  center_font_size: 16
+  center_text: IPC
+  color: (128, 128, 128)
+  color_basis_type: string_key
+  dimensions: (238, 224)
+  draw_external_arc: False
+  end_angle: 3.66519142919
+  error_color: (255, 0, 0)
+  hand_color: (255, 0, 0)
+  max_val: 6
+  min_val: 0
+  num_intervals: 6
+  num_secondary_ticks: 9
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (239, 647)
+  show_text_value: True
+  speedo_delay: 1000
+  start_angle: -0.523598775598
+  t_offset: 0
+  text_color: (0, 0, 0)
+  text_value_color: (0, 0, 0)
+  text_value_font_size: 16
+  text_value_format: '{:04.2f}'
+  text_value_position: (91, 150)
+  tick_color: (0, 0, 0)
+  tick_font_size: 12
+  tooltip:
+  type: speedo
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array0
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 477)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array1
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 479)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array2
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 481)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array3
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 483)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array4
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 485)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array5
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 487)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array6
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 489)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array7
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 491)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array8
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 493)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array9
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 495)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array10
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 497)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array11
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 499)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array12
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 501)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array13
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 503)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array14
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 505)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array15
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 507)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array16
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 509)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array17
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 511)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array18
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 513)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array19
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 515)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array20
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 517)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array21
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 519)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array22
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 521)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array23
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 523)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array24
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 525)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array25
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 527)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array26
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 529)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array27
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 531)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array28
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 533)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array29
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 535)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array30
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 537)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.fp_unit_0.fp_coarse_scheduler.scheduler_array.scheduler_array31
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (100, 4)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (269, 539)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.retire.rob_age_ordered.rob_age_ordered0
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (84, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (191, 580)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.retire.rob_age_ordered.rob_age_ordered1
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (84, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (306, 580)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.retire.rob_age_ordered.rob_age_ordered2
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (84, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (421, 580)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_annotation
+  LocationString: top.core0.retire.rob_age_ordered.rob_age_ordered3
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (84, 14)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (536, 580)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.dispatch.dispatch_queue.dispatch_queue0
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (90, 3)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (532, 340)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.dispatch.dispatch_queue.dispatch_queue1
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (90, 3)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (532, 336)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.dispatch.dispatch_queue.dispatch_queue2
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (90, 3)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (532, 332)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.dispatch.dispatch_queue.dispatch_queue3
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (90, 3)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (532, 328)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.dispatch.dispatch_queue.dispatch_queue4
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (90, 3)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (532, 324)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.dispatch.dispatch_queue.dispatch_queue5
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (90, 3)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (532, 320)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.dispatch.dispatch_queue.dispatch_queue6
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (90, 3)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (532, 316)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.dispatch.dispatch_queue.dispatch_queue7
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (90, 3)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (532, 312)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.dispatch.dispatch_queue.dispatch_queue8
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (90, 3)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (532, 308)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.dispatch.dispatch_queue.dispatch_queue9
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (90, 3)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (532, 304)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.dispatch.dispatch_queue.dispatch_queue10
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (90, 3)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (532, 300)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.dispatch.dispatch_queue.dispatch_queue11
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (90, 3)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (532, 296)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.dispatch.dispatch_queue.dispatch_queue12
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (90, 3)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (532, 292)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.dispatch.dispatch_queue.dispatch_queue13
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (90, 3)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (532, 288)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.dispatch.dispatch_queue.dispatch_queue14
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (90, 3)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (532, 284)
+  t_offset: 0
+  tooltip:
+  type: box
+- Content: auto_color_anno_notext
+  LocationString: top.core0.dispatch.dispatch_queue.dispatch_queue15
+  auto_color_basis: uop_coloring:UopColoring
+  caption:
+  color: (240, 240, 240)
+  color_basis_type: python_func
+  dimensions: (90, 3)
+  on_cycle_changed:
+  on_init:
+  on_update:
+  position: (532, 280)
+  t_offset: 0
+  tooltip:
+  type: box
+...

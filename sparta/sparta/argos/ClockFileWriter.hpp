@@ -17,11 +17,11 @@
 #include "sparta/simulation/Clock.hpp"
 #include "sparta/simulation/TreeNodePrivateAttorney.hpp"
 namespace sparta{
-namespace argos
+namespace pipeViewer
 {
     /**
      * \brief Object capable of writing file with clock info entries for a given
-     * device tree for consumption by the argos viewer
+     * device tree for consumption by the pipeViewer viewer
      *
      * File format is a version line:
      * \verbatim
@@ -128,7 +128,7 @@ namespace argos
 
     }; // class ClockFileWriter
 
-}//namespace argos
+}//namespace pipeViewer
 }//namespace sparta
 
 // __CLOCK_FILE_WRITER_H__

@@ -1,0 +1,14 @@
+Lower Priority Tasks still to be completed::
+
+
+element_propsvalid:
+        doxygen documentation for methods (cause it's a namespace, not
+                class)
+        allow for t_offsets in Elements that are non-zero
+        clear out leading zeros on ints
+
+element:
+        actually implement GetID()
+        add attributes for background color and text color (current one is
+                border color)
+        asdf
