@@ -15,10 +15,10 @@ added_path = os.environ.get(__MODULE_ENV_VAR_NAME, os.getcwd())
 
 sys.path.insert(0, added_path) # Add temporary search path
 try:
-    import transactiondb2
+    import transactiondb
 
 except ImportError as e:
-    error('Argos failed to import module: "transactiondb2"')
+    error('Argos failed to import module: "transactiondb"')
     error(f'The search paths (sys.path) were: {", ".join(sys.path)}')
     error(f'Please export the environment variable {__MODULE_ENV_VAR_NAME} to ' \
           'contain the absolute path of the directory wherein the SPARTA ' \
@@ -29,7 +29,7 @@ finally:
     sys.path.remove(added_path) # Remove temporary path
 
 # Inform users which transactiondb interface they are getting
-info('Using transactiondb2 at "{}"'.format(transactiondb2.__file__))
+info('Using transactiondb at "{}"'.format(transactiondb.__file__))
 
 
 # # Consumes an Argos database and creates a location manager, a clock manager,
@@ -63,7 +63,7 @@ class Database(object):
         # Note that this will need to move if multiple layout contexts access
         # the same database sporadically
         logging.getLogger('Database').debug('Database {} about to open query API'.format(self))
-        self.__dbapi = transactiondb2.TransactionDatabase(self.filename,
+        self.__dbapi = transactiondb.TransactionDatabase(self.filename,
                                                           1 + self.location_manager.getMaxLocationID(), update_enabled)
         logging.getLogger('Database').debug('Database opened with node length {}, heartbeat size {}' \
                                             .format(self.__dbapi.getNodeLength(), self.__dbapi.getChunkSize()))
@@ -71,7 +71,7 @@ class Database(object):
     # # Gets the database implementation module
     @property
     def dbmodule(self):
-        return transactiondb2
+        return transactiondb
 
     # # Query API (TransactionDatabase)
     @property

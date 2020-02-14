@@ -47,7 +47,7 @@ flags = subprocess.check_output(['wx-config', '--libs']).decode('utf-8')
 flags = flags.split()
 wx_link_args = flags
 
-compile_args = ['--std=c++11'] # Required for ISL C++ code
+compile_args = ['--std=c++17'] # Required for ISL C++ code
 
 # override strict flags (needed when moving to spa-3 gcc6.3)
 compile_args += ['-Wno-cast-qual', '-Wno-deprecated-declarations', '-Wno-strict-aliasing', '-Wall', '-Werror', '-Wpedantic']

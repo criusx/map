@@ -479,7 +479,7 @@ class Layout(object):
             with open(filename, 'r') as f:
                 file_data = f.read()
                 try:
-                    d = yaml.load(file_data)
+                    d = yaml.safe_load(file_data)
                 except Exception as e:
                     raise Exception("Failed to load yaml file \"{0}\":\n{1}".format(filename, str(e)))
 
@@ -502,8 +502,8 @@ class Layout(object):
         self.__file_checksum = self.__ComputeChecksum(filename) # Checksum of file as loaded
 
         # Store the precompiled alf
-        if not loaded_precompiled:
-            self.__WritePrecompiledLayout(precompiled_filename)
+        #if not loaded_precompiled:
+        #    self.__WritePrecompiledLayout(precompiled_filename)
 
         # Just loaded - No changes
         self.__MarkAsUnchanged()
@@ -617,4 +617,3 @@ class Layout(object):
     # # Add a region of two offsets from current time to ask for when updated.
     def GetElementDump(self):
         return repr(self.__elements)
-

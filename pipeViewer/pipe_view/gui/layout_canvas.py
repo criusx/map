@@ -97,10 +97,10 @@ class Layout_Canvas(wx.ScrolledWindow):
             self.__fnt_layout = wx.Font(8, wx.FONTFAMILY_MODERN, wx.NORMAL, wx.NORMAL)
 
         # set up font
-        temp_dc = wx.MemoryDC()
-        temp_dc.SetFont(self.__fnt_layout)
-        self.__renderer.setFontFromDC(temp_dc)
-        del temp_dc
+        #temp_dc = wx.MemoryDC()
+        #temp_dc.SetFont(self.__fnt_layout)
+        #self.__renderer.setFontFromDC(temp_dc)
+        #del temp_dc
 
         # Disable background erasing
         def disable_event(*pargs, **kwargs):

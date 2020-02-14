@@ -1,6 +1,3 @@
 
-include $(CURDIR)/../argos.mk
-
-SUBDIRS := core
-
-include $(EASYMAKE_DIR)/GNUmakefile.easy
+all:
+	$(MAKE) -C core

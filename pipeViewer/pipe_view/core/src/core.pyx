@@ -183,7 +183,7 @@ cdef extern from "wx/dc.h":
 
 
 def get_argos_version():
-    return ARGOS_VERSION;
+    return 1;
 
 # # Extracts a value from a string \a s by its \a key. Key is separated from
 #  value by 0 or more spaces, then a character in \a separators, followed by 0 or
@@ -403,6 +403,7 @@ cdef class Renderer(object):
 
         font = dc.GetFont()
         ptr = < SwigPyObject *> font.this
+        # ptr = < SwigPyObject *> font
         self.c_font = (< wxFont *> ptr.ptr)[0]
         self.c_bold_font = wxFont(self.c_font)
         self.c_bold_font.MakeBold()
